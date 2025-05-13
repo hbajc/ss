@@ -11,7 +11,11 @@ RUN sed -i 's@/archive.ubuntu.com/@/mirrors.ustc.edu.cn/@g' /etc/apt/sources.lis
     sed -i 's@/security.ubuntu.com/@/mirrors.ustc.edu.cn/@g' /etc/apt/sources.list && \
     apt update && \
     apt install -y --no-install-recommends wget bzip2 && \
-    wget -q -O sherpa-onnx.tar.bz2 https://ghfast.top/github.com/k2-fsa/sherpa-onnx/releases/download/v1.10.43/sherpa-onnx-v1.10.43-linux-x64-static.tar.bz2 --no-check-certificate && \
+    if [ "$(uname -m)" = "x86_64" ]; then \
+        wget -q -O sherpa-onnx.tar.bz2 https://ghfast.top/github.com/k2-fsa/sherpa-onnx/releases/download/v1.11.5/sherpa-onnx-v1.11.5-linux-x64-static.tar.bz2 --no-check-certificate; \
+    elif [ "$(uname -m)" = "aarch64" ]; then \
+        wget -q -O sherpa-onnx.tar.bz2 https://ghfast.top/github.com/k2-fsa/sherpa-onnx/releases/download/v1.11.5/sherpa-onnx-v1.11.5-linux-aarch64-static.tar.bz2 --no-check-certificate; \
+    fi && \
     tar -xjf sherpa-onnx.tar.bz2 --strip-components=1 -C /k2fsa/ && \
     chmod +x /k2fsa/bin/* && \
     rm -rf /k2fsa/include && \
@@ -31,3 +35,7 @@ RUN sed -i 's@/archive.ubuntu.com/@/mirrors.ustc.edu.cn/@g' /etc/apt/sources.lis
     apt-get clean
 
 CMD [ "/k2fsa/init.sh" ]
+
+
+#https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.11.5/sherpa-onnx-v1.11.5-linux-aarch64-static.tar.bz2
+#https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.11.5/sherpa-onnx-v1.11.5-linux-x64-static.tar.bz2

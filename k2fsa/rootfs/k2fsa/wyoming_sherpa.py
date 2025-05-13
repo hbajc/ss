@@ -1,54 +1,56 @@
 import asyncio
-import websockets
 import json
-from wyoming.asr import Transcript
-from wyoming.asr import Transcript
+import numpy as np
+import websockets
+from wyoming.audio import AudioChunk
 from wyoming.server import AsyncServer
-from wyoming.discovery import send_discovery
+from wyoming.stt import Transcript, StartListening, StopListening, Audio
 
+SHERPA_WS_URL = "ws://localhost:6006"
 
-SHERPA_URL = "ws://localhost:6006/ws"
-WYOMING_PORT = 10300
+class SherpaSTTSession:
+    def __init__(self):
+        self.audio_buffer = bytearray()
 
-async def get_transcription() -> str:
-    """连接 Sherpa websocket 并等待识别结果"""
-    async with websockets.connect(SHERPA_URL) as ws:
-        print("[Bridge] Connected to Sherpa.")
-        while True:
-            message = await ws.recv()
-            try:
-                data = json.loads(message)
-                if text := data.get("text"):
-                    return text
-            except Exception as e:
-                print(f"[Bridge] JSON decode error: {e}")
+    def add_audio(self, audio: bytes):
+        self.audio_buffer.extend(audio)
 
-async def handle_request(request):
-    """处理 Wyoming 语音请求"""
-    print("[Bridge] Received ASR request, waiting for Sherpa result...")
-    text = await get_transcription()
+    def reset(self):
+        self.audio_buffer.clear()
 
-    # 返回 Transcript 对象封装为 Message
-    return Message(
-        type="text",
-        payload=Transcript(text=text, is_final=True).to_dict()
-    )
+    async def recognize(self) -> str:
+        # Ensure even number of bytes for int16
+        trimmed = self.audio_buffer[:len(self.audio_buffer) - (len(self.audio_buffer) % 2)]
+        samples = np.frombuffer(trimmed, dtype=np.int16).astype(np.float32) / 32768.0
+        data = samples.tolist()
 
-async def asr_server():
-    server = AsyncServer(f"tcp://0.0.0.0:{WYOMING_PORT}")
-    await send_discovery(
-        name="Sherpa-ONNX ASR Bridge",
-        description="Bridge to Sherpa-ONNX websocket",
-        address=f"tcp://localhost:{WYOMING_PORT}",
-        stt=True,
-        tts=False
-    )
+        async with websockets.connect(SHERPA_WS_URL) as ws:
+            await ws.send(json.dumps({"samples": data}))
+            response = await ws.recv()
 
-    async for client in server:
-        async for message in client:
-            if isinstance(message, Message):
-                response = await handle_request(message)
-                await client.send(response)
+        result = json.loads(response)
+        return result.get("text", "")
+
+class SherpaSTTServer(AsyncServer):
+    async def handle(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
+        session = self.create_session(reader, writer)
+        stt_session = SherpaSTTSession()
+
+        async for message in session:
+            if isinstance(message, StartListening):
+                stt_session.reset()
+
+            elif isinstance(message, Audio):
+                stt_session.add_audio(message.audio)
+
+            elif isinstance(message, StopListening):
+                transcript = await stt_session.recognize()
+                await session.write_message(Transcript(text=transcript))
+                await session.write_message(StopListening())
+
+async def main():
+    server = SherpaSTTServer()
+    await server.run()
 
 if __name__ == "__main__":
-    asyncio.run(asr_server())
+    asyncio.run(main())
