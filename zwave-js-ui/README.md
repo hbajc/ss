@@ -1,12 +1,12 @@
 # Home Assistant 社区附加组件: Z-Wave JS UI
 
-[![Release][release-shield]][release] ![项目阶段][project-stage-shield] ![项目维护][maintenance-shield]
+[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
-[![Discord][discord-shield]][discord] [![社区论坛][forum-shield]][forum]
+[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-[![通过 GitHub Sponsors 支持 Frenck][github-sponsors-shield]][github-sponsors]
+[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
-[![在 Patreon 上支持 Frenck][patreon-shield]][patreon]
+[![Support Frenck on Patreon][patreon-shield]][patreon]
 
 完全可配置的 Z-Wave JS 控制面板和 MQTT 网关。
 
@@ -14,20 +14,15 @@
 
 ## 关于
 
-Z-Wave JS UI 附加组件提供了一个额外的控制面板，让您可以
-配置 Z-Wave 网络的各个方面。它提供了一个解耦的
-网关，可以使用 Z-Wave JS WebSockets（由
-Home Assistant Z-Wave JS 集成使用）和 MQTT 进行通信（甚至可以同时进行）。
+Z-Wave JS UI 附加组件提供了一个额外的控制面板，使您可以配置 Z-Wave 网络的各个方面。它提供一个解耦的网关，可以通过 Z-Wave JS WebSockets（Home Assistant Z-Wave JS 集成使用）和 MQTT（甚至同时）进行通信。
 
-一些优点和应用场景：
+一些优势和使用案例：
 
 - 兼容 Home Assistant Z-Wave JS 集成。
-- 您的 Z-Wave 网络将在 Home Assistant 重启之间持续运行。
-- 您可以直接使用 Node-RED 等工具与 Z-Wave 网络交互，同时
-  Home Assistant 也可以同时访问。
-- 允许基于 [ESPHome.io][esphome] 的 ESP 设备直接响应或处理
-  您的 Z-Wave 网络。
-- 当找到时，它会与 Mosquitto 附加组件自动配置。
+- 您的 Z-Wave 网络在 Home Assistant 重启之间将保持运行。
+- 您可以直接使用 Node-RED 等工具与 Z-Wave 网络交互，同时它也可以用于 Home Assistant。
+- 允许基于 [ESPHome.io][esphome] 的 ESP 设备直接响应或与您的 Z-Wave 网络一起工作。
+- 当找到 Mosquitto 附加组件时，该附加组件会自动进行配置。
 
 此附加组件使用 [Z-Wave JS UI][zwave-js-ui] 软件。
 
@@ -43,6 +38,6 @@ Home Assistant Z-Wave JS 集成使用）和 MQTT 进行通信（甚至可以同�
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v4.2.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v4.2.1
+[release-shield]: https://img.shields.io/badge/version-v4.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v4.3.0
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui
