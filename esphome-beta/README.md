@@ -7,8 +7,7 @@
 
 ## 关于
 
-这个附加组件允许您编写配置，并通过 Home Assistant 将您的微控制器
-直接转变为智能家居设备 **无需编程经验**。
+此附加组件允许您通过 Home Assistant 直接编写配置，并将您的微控制器变成智能家居设备 **无需编程经验**。
 您所需要做的就是编写 YAML 配置文件；其余的（空中更新、编译）都由 ESPHome 处理。
 
 <p align="center">
@@ -19,13 +18,11 @@
 
 ## 示例
 
-使用 ESPHome，您可以从几行 YAML 直接生成定制的
-固件。例如，要包含一个 [DHT22][dht22]
-温湿度传感器，您只需在您的配置文件中包含 8 行 YAML：
+使用 ESPHome，您可以从几行 YAML 直接生成定制的固件。例如，要包括一个 [DHT22][dht22] 温湿度传感器，您只需在配置文件中包含 8 行 YAML：
 
 <img title="ESPHome DHT configuration example" src="https://github.com/esphome/home-assistant-addon/raw/main/esphome-beta/images/dht-example.png" width="500px"></img>
 
-然后只需点击上传，传感器将神奇地出现在 Home Assistant 中：
+然后只需点击上传，传感器就会神奇地在 Home Assistant 中出现：
 
 <img title="ESPHome Home Assistant discovery" src="https://github.com/esphome/home-assistant-addon/raw/main/esphome-beta/images/temperature-humidity.png" width="600px"></img>
 
