@@ -22,6 +22,6 @@ BookStack 是一个简单、自托管、易于使用的平台，用于组织和�
 [forum]: https://community.home-assistant.io/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-bookstack/tree/v3.0.0
+[release-shield]: https://img.shields.io/badge/version-v3.0.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-bookstack/tree/v3.0.1
 [screenshot]: https://github.com/hassio-addons/addon-bookstack/raw/main/images/screenshot.png
