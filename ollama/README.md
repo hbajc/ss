@@ -1,6 +1,6 @@
 # Ollama 插件用于 Home Assistant
 
-请注意，此插件支持 CPU 加速或实验性的 Nvidia GPU 支持（如果对您有效，请反馈！）。对于 ROCm 的支持仍在待定中。
+请注意，该插件在 CPU 加速或实验性的 Nvidia GPU 支持下运行（请反馈是否对您有效！）。对于 ROCm 的支持仍在待定中。
 
 ## 模型目录
 
@@ -8,7 +8,7 @@
 
 ## Ollama 集成
 
-要下载任何模型，请使用 Ollama 的 API 或与 Home Assistant 集成 [Ollama](https://www.home-assistant.io/integrations/ollama/)：
+要下载任何模型，可以使用 Ollama 的 API 或与 Home Assistant 集成 [Ollama](https://www.home-assistant.io/integrations/ollama/)：
 
 [![添加 Ollama 集成](https://my.home-assistant.io/badges/brand.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=ollama)
 
@@ -16,8 +16,8 @@
 
 - URL: `http://76e18fb5-ollama:11434`
 
-如果您想更改模型，请删除集成（不是插件！）并重新启动以进行集成的配置。
+如果您想更改模型，请删除集成（而不是插件！）并重新启动该过程以配置集成。
 
 ## 关于 UI 链接的说明
 
-UI 链接仅用于检查 ollama 的 API 是否可用。官方的 ollama 镜像中没有聊天功能。
+UI 链接仅用于检查 ollama 的 API 是否可用。官方的 ollama 镜像中不包含聊天功能。
