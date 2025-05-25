@@ -1,4 +1,4 @@
-# Home Assistant 插件：yarr！
+# Home Assistant 插件: yarr!
 
 又一个 RSS 阅读器。
 

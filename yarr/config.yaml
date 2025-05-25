@@ -1,7 +1,7 @@
 name: yarr!
-version: 0.4.0
+version: 0.5.1
 slug: yarr
-description: 又一款RSS阅读器
+description: 又一款RSS阅读器。
 url: https://gh-proxy.com/github.com/einschmidt/addon-yarr
 panel_icon: mdi:rss-box
 arch:
@@ -14,6 +14,8 @@ ports:
 ports_description:
   80/tcp: Web interface
 init: false
+ingress: true
+ingress_stream: true
 map:
 - share:rw
 - ssl
