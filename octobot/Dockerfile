@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM docker.1ms.run/drakkarsoftware/octobot
+FROM drakkarsoftware/octobot
 
 COPY run.sh /
 #RUN apt install -y jq

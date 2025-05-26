@@ -1,8 +1,8 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: KNXD daemon
-version: "0.5.2"
+version: "0.6.0"
 slug: knxd
-description: KNXD守护进程可以通过TUART或USB总线适配器创建KXN/IP网关。
+description: KNXD守护进程可以通过TUART或USB总线适配器创建一个KNX/IP网关。
 url: https://gh-proxy.com/github.com/da-anda/hass-io-addons/tree/main/knxd
 arch:
   - armhf
@@ -43,3 +43,6 @@ ports_description:
 image: "ghcr.nju.edu.cn/da-anda/hass-io-addons-{arch}-addon-knxd"
 uart: true
 usb: true
+map:
+  - type: addon_config
+    read_only: false

@@ -1,5 +1,5 @@
 name: Prowlarr
-version: 0.22.0
+version: 0.23.0
 slug: prowlarr-0
 description: 索引管理器/代理基于流行的arr堆栈构建，以与您的各种PVR应用程序集成。
   your various PVR apps
