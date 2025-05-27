@@ -8,11 +8,11 @@
 
 ## 关于
 
-`knxd` 是一个 Linux 工具，可以用作路由器/网关与 KNX 总线上的设备进行通信。这个插件提供了 `knxd` 守护进程，您可以使用它创建一个利用 TPUART 或 USB 总线适配器的 KNX/IP 网关，适用于您的家庭安装。因此，基本上它可以将 UART/USB 接口转换为 KNX IP 接口，您可以在 HomeAssistant 中使用这些接口，或通过以太网通过 ETS 编程您的 KNX 设备。更多详细信息，请参见 https://github.com/knxd/knxd。
+`knxd` 是一个Linux工具，可以用作路由器/网关与KNX总线上的设备进行通信。此插件提供了`knxd`守护进程，您可以使用它创建一个KNX/IP网关，利用您家庭安装中的TPUART或USB总线适配器。因此，它基本上可以将UART/USB接口转换为KNX IP接口，您可以在HomeAssistant中使用它，或通过以太网通过ETS对您的KNX设备进行编程。有关更多详细信息，请参见 https://github.com/knxd/knxd。
 
 ## 安装和配置
 
-请参见 [文档](DOCS.md)
+请参阅 [文档](DOCS.md)
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
