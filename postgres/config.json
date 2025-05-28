@@ -6,7 +6,7 @@
   ],
   "backup": "cold",
   "codenotary": "alexandrep.github@gmail.com",
-  "description": "PostgreSQL 15 支持pgvecto.rs",
+  "description": "带有向量弦支持的PostgreSQL 15。",
   "environment": {
     "CONFIG_LOCATION": "/config/postgresql.conf",
     "PGDATA": "/config/database"
@@ -38,5 +38,5 @@
   "slug": "postgres",
   "udev": true,
   "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/postgres",
-  "version": "15.7-29"
+  "version": "15.7-31"
 }

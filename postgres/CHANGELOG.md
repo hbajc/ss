@@ -1,7 +1,13 @@
+## 15.7-31 (28-05-2025)
+- BREAKING CHANGE : please backup your database before updating
+- Switch to new image supporting both vector.rs and VectorChord to support immich https://github.com/immich-app/immich/releases/tag/v1.133.0
+
 ## 15.7-29 (15-02-2025)
 - Minor bugs fixed
+
 ## 15.7-28 (15-02-2025)
 - Minor bugs fixed
+
 ## 15.7-27 (15-02-2025)
 - Major update, please backup first
 - Automatic handling of upgrades

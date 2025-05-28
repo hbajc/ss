@@ -54,7 +54,7 @@ ADD "https://gh-proxy.com/raw.githubusercontent.com/alexbelgium/hassio-addons/ma
 RUN chmod 744 /ha_automodules.sh && /ha_automodules.sh "$MODULES" && rm /ha_automodules.sh
 
 # Manual apps
-ENV PACKAGES="jq"
+ENV PACKAGES=""
 
 # Automatic apps & bashio
 ADD "https://gh-proxy.com/raw.githubusercontent.com/alexbelgium/hassio-addons/master/.templates/ha_autoapps.sh" "/ha_autoapps.sh"
@@ -110,8 +110,15 @@ LABEL \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}
 
-####################
-# 6 HealthcheckNOT #
-####################
+#################
+# 6 Healthcheck #
+#################
 
-# Can't be implemented as container is optimized for memory usage, so the webserver and Node are spun down during idle
+ENV HEALTH_PORT="" \
+    HEALTH_URL=""
+HEALTHCHECK \
+    --interval=5s \
+    --retries=5 \
+    --start-period=90s \
+    --timeout=25s \
+    CMD pg_isready -d postgres || exit 1

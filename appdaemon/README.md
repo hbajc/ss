@@ -1,4 +1,4 @@
-# Home Assistant 社区插件: AppDaemon
+# Home Assistant 社区插件：AppDaemon
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -8,11 +8,11 @@
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-为 Home Assistant 提供 Python 应用和 HADashboard
+用于 Home Assistant 的 Python 应用程序和 HADashboard
 
 ## 关于
 
-[AppDaemon][appdaemon] 是一个松耦合的、多线程的、隔离的 Python 执行环境，用于为 Home Assistant 家庭自动化软件编写自动化应用。它还提供了一个可配置的仪表板（HADashboard），适合安装在墙上的平板电脑。
+[AppDaemon][appdaemon] 是一个松散耦合、多线程、沙箱化的 Python 执行环境，用于编写 Home Assistant 家庭自动化软件的自动化应用程序。它还提供了一个可配置的仪表板（HADashboard），适合墙面安装的平板电脑。
 
 ![HADashboard 截图][screenshot]
 
@@ -23,10 +23,10 @@
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-appdaemon-4/163259?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.16.7-blue.svg
-[release]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.16.7
+[release-shield]: https://img.shields.io/badge/version-v0.17.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.17.2
 [screenshot]: https://github.com/hassio-addons/addon-appdaemon/raw/main/images/screenshot.png
