@@ -1,5 +1,9 @@
-## 15.7-31 (28-05-2025)
+## 15.7-37 (29-05-2025)
+
 - BREAKING CHANGE : please backup your database before updating
+- Automatically restarts immich addons after upgrade
+- Describe list of databases and extensions in log
+- Improve upgrade system for postgres and extensions
 - Switch to new image supporting both vector.rs and VectorChord to support immich https://github.com/immich-app/immich/releases/tag/v1.133.0
 
 ## 15.7-29 (15-02-2025)
