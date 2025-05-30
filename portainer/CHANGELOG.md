@@ -1,4 +1,6 @@
+## 2.30.1-2 (30-05-2025)
 - Map internal /config to allow for custom scripts execution and variables
+- Fix invalid origin
 
 ## 2.30.1 (24-05-2025)
 - Update to latest version from portainer/portainer (changelog : https://github.com/portainer/portainer/releases)
