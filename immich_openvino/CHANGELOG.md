@@ -1,3 +1,10 @@
+
+## 1.134.0 (31-05-2025)
+- Update to latest version from imagegenius/docker-immich (changelog : https://github.com/imagegenius/docker-immich/releases)
+## 1.133.1-3 (30-05-2025)
+- MAJOR CHANGE : please backup your database before updating
+- Added vector.rs to vectorchord migration script for immich database
+
 ## 1.133.1-2 (26-05-2025)
 - MAJOR CHANGE : please backup your database before updating
 - Added VectorChord support https://github.com/immich-app/immich/releases/tag/v1.133.0
