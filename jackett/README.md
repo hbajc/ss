@@ -14,41 +14,41 @@
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee%20(no%20paypal)-%23d32f2f?logo=buy-me-a-coffee&style=flat&logoColor=white
 [paypal-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee%20with%20Paypal-0070BA?logo=paypal&style=flat&logoColor=white
 
-_感谢每一个给我的仓库加星的人！要加星，请点击下面的图片，它会在右上角显示。谢谢！_
+_感谢所有为我的仓库加星的人！要加星，请点击下面的图像，然后它将在右上角显示。谢谢！_
 
-[![Stargazers repo roster for @alexbelgium/hassio-addons](https://raw.githubusercontent.com/alexbelgium/hassio-addons/master/.github/stars2.svg)](https://github.com/alexbelgium/hassio-addons/stargazers)
+[![Stars 统计信息 @alexbelgium/hassio-addons](https://raw.githubusercontent.com/alexbelgium/hassio-addons/master/.github/stars2.svg)](https://github.com/alexbelgium/hassio-addons/stargazers)
 
-![下载演变](https://raw.githubusercontent.com/alexbelgium/hassio-addons/master/jackett/stats.png)
+![下载趋势](https://raw.githubusercontent.com/alexbelgium/hassio-addons/master/jackett/stats.png)
 
 ## 关于
 
 [jackett](https://github.com/jackett/jackett) - jackett 的一个分支，用于处理像 Couchpotato 这样的电影。
 
-这个插件基于来自 linuxserver.io 的 [docker 镜像](https://github.com/linuxserver/docker-jackett)。
+该插件基于来自 linuxserver.io 的 [docker 镜像](https://github.com/linuxserver/docker-jackett)。
 
 ## 配置
 
-可以通过应用的 webUI 进行配置，以下选项除外：
+配置可以通过应用的 web UI 完成，除了以下选项：
 
 ```yaml
 PGID: 用户
 GPID: 用户
 TZ: 时区
-localdisks: sda1 # 将要挂载的驱动器的硬件名称以逗号分隔，或其标签。例如 sda1, sdb1, MYNAS...
-networkdisks: "//SERVER/SHARE" # 可选，挂载的 smb 服务器列表，以逗号分隔
-cifsusername: "用户名" # 可选，smb 用户名，对所有 smb 共享相同
+localdisks: sda1 # 输入要挂载的驱动器的硬件名称，以逗号分隔，或者用其标签，例如 sda1, sdb1, MYNAS...
+networkdisks: "//SERVER/SHARE" # 可选，列出要挂载的 smb 服务器，以逗号分隔
+cifsusername: "用户名" # 可选，smb 用户名，适用于所有 smb 共享
 cifspassword: "密码" # 可选，smb 密码
 ```
 
 ## 安装
 
-安装此插件相当简单，与安装其他 Hass.io 插件没有区别。
+安装此插件非常简单，与安装其他 Hass.io 插件没有区别。
 
-1. [将我的 Hass.io 插件库][repository] 添加到您的 Hass.io 实例中。
+1. [将我的 Hass.io 插件仓库][repository] 添加到您的 Hass.io 实例。
 1. 安装此插件。
-1. 点击 `Save` 按钮以保存您的配置。
+1. 点击 `保存` 按钮以存储您的配置。
 1. 启动插件。
-1. 检查插件日志，确保一切正常。
-1. 根据您的偏好仔细配置插件，查看官方文档以获取相关信息。
+1. 检查插件的日志以查看是否一切正常。
+1. 认真配置插件以符合您的偏好，具体可参见官方文档。
 
 [repository]: https://github.com/alexbelgium/hassio-addons

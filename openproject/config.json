@@ -4,7 +4,14 @@
     "aarch64"
   ],
   "codenotary": "alexandrep.github@gmail.com",
-  "description": "OpenProject for Home Assistant 的翻译是“家庭助理的 OpenProject”。",
+  "description": "Openproject for Home Assistant\n\nOpenProject 是一个开源的项目管理工具，它为家庭自动化平台 Home Assistant 提供了集成。这意味着用户可以在 Home Assistant 的界面中直接访问和管理他们的 OpenProject 项目，从而实现更高效的家庭管理和任务跟踪。",
+  "environment": {
+    "OPENPROJECT_SECRET_KEY_BASE": "addon_secret",
+    "OPENPROJECT_EDITION": "bim",
+    "PGDATA": "/config/pg",
+    "APP_DATA_PATH": "/config/assets",
+    "OPENPROJECT_ATTACHMENTS__STORAGE__PATH": "/config/assets/files"
+  },
   "image": "ghcr.nju.edu.cn/alexbelgium/openproject-{arch}",
   "init": false,
   "map": [
@@ -12,15 +19,26 @@
     "share:rw"
   ],
   "name": "Openproject",
+  "options": {
+    "OPENPROJECT_HOST__NAME": "homeassistant:8080",
+    "OPENPROJECT_HTTPS": "false",
+    "OPENPROJECT_DEFAULT__LANGUAGE": "en"
+  },
   "ports": {
     "8080/tcp": 8080
   },
   "ports_description": {
     "8080/tcp": "Web interface"
   },
+  "schema": {
+    "OPENPROJECT_SECRET_KEY_BASE": "str",
+    "OPENPROJECT_HOST__NAME": "str",
+    "OPENPROJECT_HTTPS": "bool",
+    "OPENPROJECT_DEFAULT__LANGUAGE": "str"
+  },
   "slug": "openproject",
   "udev": true,
   "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/openproject",
-  "version": "14.1.0-2",
+  "version": "16.0-6",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8080]"
 }

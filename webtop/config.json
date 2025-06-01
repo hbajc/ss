@@ -5,7 +5,7 @@
   ],
   "audio": true,
   "codenotary": "alexandrep.github@gmail.com",
-  "description": "完整的Linux桌面环境可以通过现代的网页浏览器访问。",
+  "description": "通过现代网络浏览器即可访问的全功能Linux桌面环境。",
   "devices": [
     "/dev/dri",
     "/dev/dri/card0",
@@ -79,7 +79,7 @@
     "shm_size": "1gb"
   },
   "host_dbus": true,
-  "image": "ghcr.nju.edu.cn/alexbelgium/webtop_kde-{arch}",
+  "image": "ghcr.nju.edu.cn/alexbelgium/webtop-{arch}",
   "ingress": true,
   "init": false,
   "map": [
@@ -145,6 +145,6 @@
   "tmpfs": true,
   "udev": true,
   "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons",
-  "version": "4.16-r0-ls95-3",
+  "version": "4.16-r0-ls95-4",
   "video": true
 }

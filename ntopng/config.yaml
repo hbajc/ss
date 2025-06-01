@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: ntopng
-version: "0.1.1"
+version: "0.2.0"
 slug: ntopng
 description: SoHo 自由及开放源代码的 ntopng 网络流量收集器
 url: "https://gh-proxy.com/github.com/litinoveweedle/hassio-addons/tree/main/ntopng"

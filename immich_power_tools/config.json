@@ -4,9 +4,9 @@
     "amd64"
   ],
   "codenotary": "alexandrep.github@gmail.com",
-  "description": "组织您的 Immich 库的强大工具。",
+  "description": "组织您的Immich图库的强大工具。",
   "hassio_api": true,
-  "image": "ghcr.nju.edu.cn/alexbelgium/immich-{arch}",
+  "image": "ghcr.nju.edu.cn/alexbelgium/immich_power_tools-{arch}",
   "init": false,
   "map": [
     "addon_config:rw"
@@ -32,6 +32,6 @@
   },
   "slug": "immich_power_tools",
   "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons",
-  "version": "0.16.0",
+  "version": "0.16.0-2",
   "webui": "http://[HOST]:[PORT:3000]"
 }

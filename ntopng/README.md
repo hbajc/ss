@@ -1,6 +1,6 @@
 # Home Assistant 插件：ntopng
 
-ntopng 的社区版本，带有开源的 netflow 收集器 netflow2nd
+开源的 ntopng 社区版本，带有开源的 NetFlow 收集器 netflow2nd
 
 ![支持 aarch64 架构][aarch64-shield]
 ![支持 amd64 架构][amd64-shield]
