@@ -1,32 +1,32 @@
-# 家庭助手插件: 5etools
+# Home assistant add-on: 5etools
 
-一套基于浏览器的 D&D 5e 玩家和 DM 工具。下载的图像来自 5etools GitHub。没有图像或内容托管/发布在 jdeath 的仓库中。由于家庭助手插件创建者不使用此插件，因此不提供支持。自托管的图像可能会比 5etools 网站落后一版。图像大小为 4 GB，因此安装将需要很长时间，请耐心等待。
+一套基于浏览器的工具，供《龙与地下城》第五版的玩家和DM使用。下载自5etools GitHub的已发布图像。jdeath的存储库中没有托管或发布任何图像或内容。不提供支持，因为Home Assistant Addon的创建者并不使用此工具。自托管的图像可能会比5etools网站的版本晚一个修订。图像大小为4 GB，因此安装将需要较长时间，请耐心等待。
 
-_感谢所有给我的仓库加星的人！要给它加星，请点击下面的图像，然后它会出现在右上角。谢谢！_
+_感谢所有为我的存储库加星的朋友们！要加星，请点击下面的图像，然后它将位于右上角。谢谢！_
 
 [![Stargazers repo roster for @jdeath/homeassistant-addons](https://reporoster.com/stars/jdeath/homeassistant-addons)](https://github.com/jdeath/homeassistant-addons/stargazers)
 
 ## 关于
 
-这个插件使用 [docker 镜像](https://github.com/5etools-mirror-2/5etools-mirror-2.github.io)。
+此附加组件使用 [docker image](https://github.com/5etools-mirror-2/5etools-mirror-2.github.io)。
 
 ## 安装
 
-安装此插件相当简单，与安装其他 Hass.io 插件没有什么不同。
+此附加组件的安装相当简单，与安装其他Hass.io附加组件没有区别。
 
-1. [将我的 Hass.io 插件仓库][repository]添加到你的 Hass.io 实例中。
-1. 安装此插件。4 GB 的镜像将需要一些时间下载。
-1. 点击 `Save` 按钮以存储配置。
-1. 启动插件。
-1. 检查插件的日志以查看是否一切正常。
-1. WebUI 应该可以通过 ingress 或 <你的-ip>:端口 开放。
+1. [将我的Hass.io附加组件存储库][repository]添加到您的Hass.io实例中。
+1. 安装此附加组件。4 GB的图像将需要一些时间下载。
+1. 点击 `Save` 按钮以保存您的配置。
+1. 启动该附加组件。
+1. 检查附加组件的日志，看看一切是否正常。
+1. WebUI通过入口或<your-ip>:port打开应该可以工作。
 
 ## 配置
 
 ```
-port : 8080 #你想要运行的端口。
+port : 8080 #您想要运行的端口。
 ```
 
-Webui 可以在 `<你的-ip>:端口` 找到。
+Webui可以在 `<your-ip>:port` 找到。
 
 [repository]: https://github.com/jdeath/homeassistant-addons
