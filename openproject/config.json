@@ -4,7 +4,7 @@
     "aarch64"
   ],
   "codenotary": "alexandrep.github@gmail.com",
-  "description": "Openproject for Home Assistant\n\nOpenProject for Home Assistant",
+  "description": "OpenProject for Home Assistant",
   "environment": {
     "OPENPROJECT_SECRET_KEY_BASE": "addon_secret",
     "OPENPROJECT_EDITION": "bim",
@@ -39,6 +39,6 @@
   "slug": "openproject",
   "udev": true,
   "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/openproject",
-  "version": "16.0-10",
+  "version": "16.0.1",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8080]"
 }

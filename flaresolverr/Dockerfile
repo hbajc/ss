@@ -15,7 +15,7 @@
 #################
 ARG BUILD_FROM
 ARG BUILD_VERSION
-FROM docker.1ms.run/flaresolverr/flaresolverr:latest
+FROM flaresolverr/flaresolverr:latest
 
 ##################
 # 2 Modify Image #
