@@ -1,8 +1,8 @@
 # Home Assistant Community Add-on: Portainer
 
 [![GitHub Release][releases-shield]][releases]
-![Project Stage][project-stage-shield]
-[![License][license-shield]](LICENSE.md)
+![项目阶段][project-stage-shield]
+[![许可证][license-shield]](LICENSE.md)
 
 ![支持 aarch64 架构][aarch64-shield]
 ![支持 amd64 架构][amd64-shield]
@@ -21,78 +21,88 @@
 
 [![在 Patreon 上支持 Frenck][patreon-shield]][patreon]
 
-轻松管理你的 Docker 环境。
+轻松管理您的 Docker 环境。
 
 ![Portainer Hass.io 插件](images/screenshot.png)
 
 ## 关于
 
-Portainer 是一个开源的轻量级管理界面，允许你
+Portainer 是一个开源的轻量级管理 UI，它允许您
 轻松管理一个或多个 Docker 主机或 Docker 集群。
 
-管理 Docker 从未如此简单。Portainer 提供了详细的
-Docker 概述，并允许你管理容器、镜像、网络和
+管理 Docker 从未如此简单。Portainer 提供了 Docker 的详细
+概述，并允许您管理容器、镜像、网络和
 卷。
 
 [:books: 阅读完整的插件文档][docs]
 
-## 分叉
+## 已被分叉
 
-此插件已由其作者停止维护，不再可在社区库中获取。
+此插件已被其作者停止维护，并不再从社区存储库中提供。
 这是一个尽力而为的分叉。
 
-如果你运行 Home Assistant，请注意运行额外的容器
-不被支持，并会导致您的系统被标记为不支持。
+如果您运行 Home Assistant，请注意，运行额外的容器
+并不是支持的用例，并且会导致您的系统被标记为
+不支持。
 
 ## 警告 1
 
-Portainer 插件非常强大，可以访问你几乎
-所有的系统。虽然该插件是经过仔细创建和维护的，并考虑了安全性，但在错误或经验不足的情况下，
-可能会损坏你的系统。
+Portainer 插件非常强大，可以让您访问几乎
+整个系统。虽然此插件是经过仔细创建和维护的，
+并考虑了安全性，但在错误或没有经验的人手中，
+它可能会损害您的系统。
 
 ## 警告 2
 
-Portainer 插件是用于调试 Home Assistant 及其容器的。
-它并不是为了管理或部署你的自定义软件
-或第三方容器而设计或创建的。
+Portainer 插件旨在调试 Home Assistant 及其容器。
+它并不是用于管理或部署您的自定义软件
+或第三方容器而设计的。
 
-**Home Assistant 不支持在 Home Assistant 操作系统或监督安装类型上运行第三方容器。**
-忽略这一点，将导致你的系统被标记为不支持！
+**Home Assistant 不支持在 Home Assistant OS 或受监督安装
+类型上运行第三方容器**。忽略此点，将
+使您的系统被视为不支持！
 
 ## 支持
 
 有问题吗？
 
-[在这里提交问题][issue] GitHub。
+[在此处提出问题][issue] GitHub。
 
 ## 贡献
 
-这是一个活跃的开源项目。我们始终欢迎想要
-使用或贡献代码的人。
+这是一个活跃的开源项目。我们始终欢迎希望
+使用代码或贡献代码的人。
 
 我们已经设置了一个单独的文档，包含我们的
-[贡献指南](github/CONTRIBUTING.md)。
+[贡献指南](,github/CONTRIBUTING.md)。
 
-感谢你的参与！:heart_eyes:
+感谢您的参与！:heart_eyes:
 
 ## 作者与贡献者
 
-该仓库的最初设置由 [Franck Nijhof][frenck] 完成。
+这个存储库的最初设置由 [Franck Nijhof][frenck] 进行。
 
-有关所有作者和贡献者的完整列表，
+要查看所有作者和贡献者的完整列表，
 请查看 [贡献者页面][contributors]。
 
 ## 许可证
 
 MIT 许可证
 
-版权 (c) 2018-2021 Franck Nijhof
+版权所有 (c) 2018-2021 Franck Nijhof
 
-特此授予任何获得本软件及相关文档文件（“软件”）副本的个人无偿使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，并允许向其提供软件的人员这样做，前提是满足以下条件：
+在此，特此免费授予任何获得此软件及其相关文档文件（“软件”）副本的人，
+在不受限制的情况下处理该软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售
+该软件副本的权利，并允许向其提供软件的人这样做，前提是满足以下条件：
 
-在所有副本或软件的实质性部分中都应包含上述版权声明和该许可声明。
+上述版权声明和本许可声明应包含在所有
+副本或该软件的实质性部分中。
 
-软件“按原样”提供，无任何形式的担保，无论明示或暗示，包括但不限于对适销性、特定用途适用性和不侵权的保证。在任何情况下，作者或版权持有人都不对因软件或使用或其他交易而引起的任何索赔、损害或其他责任承担责任，无论是在合同、侵权或其他行为中。
+该软件按“原样”提供，不附任何形式的保证，明示或
+暗示，包括但不限于对适销性、特定用途的适用性和不侵权的
+保证。在任何情况下，作者或版权持有人均不对任何索赔、损害或其他
+责任承担责任，无论是在合同、侵权或其他方面，均源于
+或与本软件或其使用或其他交易相关。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -3,7 +3,7 @@
   "image": "ghcr.nju.edu.cn/pbkhrv/rtl_433-hass-addons-rtl_433-{arch}",
   "version": "0.6.0",
   "slug": "rtl433",
-  "description": "通过SDR接收器使用rtl_433接收无线传感器数据。",
+  "description": "通过SDR接收器接收无线传感器数据并使用rtl_433。",
   "url": "https://gh-proxy.com/github.com/pbkhrv/rtl_433-hass-addons/tree/main/rtl_433",
   "arch": [
     "armhf",
