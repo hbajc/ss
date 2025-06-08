@@ -6,7 +6,7 @@ description: 最好的IP工具箱。轻松检查您的IP地址、IP地理位置�
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   18966/tcp: 18966 
 ports_description:
