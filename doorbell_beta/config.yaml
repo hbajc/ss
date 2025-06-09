@@ -3,7 +3,7 @@ description: 连接海康威视门铃到Home Assistant（测试版） 老王杂�
 version: '3.0.0-beta.73'
 image: ghcr.nju.edu.cn/pergolafabio/hikvision-doorbell
 slug: hikvision_doorbell_beta
-url: https://gh-proxy.com/github.com/pergolafabio/Hikvision-Addons/tree/main/doorbell_beta
+url: https://ghfast.top/github.com/pergolafabio/Hikvision-Addons/tree/main/doorbell_beta
 arch:
 - amd64
 - i386

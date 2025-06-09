@@ -2,7 +2,7 @@ name: SABnzbd
 version: 0.4.1
 slug: sabnzbd-0
 description: 自由自在的二进制新闻阅读器
-url: https://gh-proxy.com/github.com/hassio-addons/addon-sabnzbd/tree/main/README.md
+url: https://ghfast.top/github.com/hassio-addons/addon-sabnzbd/tree/main/README.md
 codenotary: codenotary@frenck.dev
 ingress: true
 ingress_entry: sabnzbd/

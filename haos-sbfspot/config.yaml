@@ -3,7 +3,7 @@ name: HAOS-SBFspot
 version: 2025.2.1
 slug: haos-sbfspot
 description: 管理SBFspot使用简单的界面。
-url: "https://gh-proxy.com/github.com/habuild/hassio-addons/tree/main/haos-sbfspot"
+url: "https://ghfast.top/github.com/habuild/hassio-addons/tree/main/haos-sbfspot"
 stage: experimental
 
 image: "ghcr.nju.edu.cn/habuild/{arch}-addon-haos-sbfspot"

@@ -115,7 +115,7 @@
   },
   "slug": "papermerge",
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons",
   "version": "v2.0.1-ls60-bugfix",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8000]"
 }

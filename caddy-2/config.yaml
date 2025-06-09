@@ -2,7 +2,7 @@ name: Caddy 2
 version: 2.0.3
 slug: caddy-2
 description: 开源的Web和代理服务器，具有自动HTTPS功能。 老王杂谈说
-url: https://gh-proxy.com/github.com/einschmidt/addon-caddy-2
+url: https://ghfast.top/github.com/einschmidt/addon-caddy-2
 arch:
 - armhf
 - armv7

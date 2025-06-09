@@ -4,7 +4,7 @@
   "version": "next",
   "slug": "rtl433mqttautodiscovery-next",
   "description": "通过MQTT自动发现rtl_433设备信息。",
-  "url": "https://gh-proxy.com/github.com/pbkhrv/rtl_433-hass-addons/tree/main/rtl_433_mqtt_autodiscovery-next",
+  "url": "https://ghfast.top/github.com/pbkhrv/rtl_433-hass-addons/tree/main/rtl_433_mqtt_autodiscovery-next",
   "arch": [
     "armhf",
     "armv7",

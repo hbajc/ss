@@ -108,7 +108,7 @@
   },
   "slug": "prowlarr",
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons",
   "version": "nightly-1.38.0.5085-ls200",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:9696]"
 }

@@ -3,7 +3,7 @@ ARG BUILD_ARCH="amd64"
 
 FROM $BUILD_FROM
 
-# from: https://gh-proxy.com/github.com/raph2i/hassio-addons
+# from: https://ghfast.top/github.com/raph2i/hassio-addons
 
 # Add env
 ENV LANG C.UTF-8

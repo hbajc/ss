@@ -108,7 +108,7 @@
   },
   "slug": "lidarr_nas",
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
   "version": "2.11.2.4629",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8686]"
 }

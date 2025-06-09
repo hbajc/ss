@@ -3,7 +3,7 @@ version: 1.5.4
 slug: piper
 name: Piper
 description: Piper的语音合成技术。
-url: https://gh-proxy.com/github.com/home-assistant/addons/blob/master/piper
+url: https://ghfast.top/github.com/home-assistant/addons/blob/master/piper
 arch:
   - amd64
   - aarch64

@@ -127,7 +127,7 @@
   },
   "slug": "emby_nas",
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/emby",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons/tree/master/emby",
   "version": "4.9.1.0-3",
   "video": true
 }

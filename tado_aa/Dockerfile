@@ -16,7 +16,7 @@ RUN python3 -m venv venv
 RUN source ./venv/bin/activate && \
     pip install python-tado==0.19.2
 
-RUN wget https://gh-proxy.com/github.com/adrianslabu/tado_aa/archive/refs/heads/main.zip
+RUN wget https://ghfast.top/github.com/adrianslabu/tado_aa/archive/refs/heads/main.zip
 RUN unzip main.zip && rm main.zip && cp tado_aa-main/tado_aa.py / && rm -r tado_aa-main
 
 RUN apk del --purge wget unzip

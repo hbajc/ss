@@ -7,7 +7,7 @@ description: 一个简单的Web服务器来管理和运行基于浏览器的DOS�
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   3001/tcp: 3001 
 ports_description:

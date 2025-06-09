@@ -10,7 +10,7 @@
     "amd64",
     "i386"
   ],
-  "url": "https://gh-proxy.com/github.com/joaofl/hassio-addons/tree/master/linux-router",
+  "url": "https://ghfast.top/github.com/joaofl/hassio-addons/tree/master/linux-router",
   "startup": "system",
   "boot": "auto",
   "host_network": true,

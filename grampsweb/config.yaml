@@ -109,6 +109,6 @@ services:
 - mysql:want
 slug: grampsweb
 tmpfs: true
-url: https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/grampsweb
+url: https://ghfast.top/github.com/alexbelgium/hassio-addons/tree/master/grampsweb
 version: "25.5.2-2"
 webui: "[PROTO:ssl]://[HOST]:[PORT:5001]"

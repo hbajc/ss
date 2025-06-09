@@ -2,7 +2,7 @@ name: WireGuard
 version: 0.11.0
 slug: wireguard
 description: 快速、现代、安全的VPN隧道
-url: https://gh-proxy.com/github.com/hassio-addons/addon-wireguard
+url: https://ghfast.top/github.com/hassio-addons/addon-wireguard
 codenotary: codenotary@frenck.dev
 arch:
 - aarch64

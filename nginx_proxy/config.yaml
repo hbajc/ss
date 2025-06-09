@@ -4,7 +4,7 @@ hassio_api: true
 slug: nginx_proxy
 name: NGINX Home Assistant SSL proxy
 description: SSL/TLS代理
-url: https://gh-proxy.com/github.com/home-assistant/addons/tree/master/nginx_proxy
+url: https://ghfast.top/github.com/home-assistant/addons/tree/master/nginx_proxy
 arch:
   - armhf
   - armv7

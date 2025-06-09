@@ -1,7 +1,7 @@
-# https://gh-proxy.com/github.com/AlexxIT/builder/blob/master/builder.sh
+# https://ghfast.top/github.com/AlexxIT/builder/blob/master/builder.sh
 name: go2rtc master
 description: 最新不稳定版本
-url: https://gh-proxy.com/github.com/AlexxIT/go2rtc
+url: https://ghfast.top/github.com/AlexxIT/go2rtc
 image: docker.1ms.run/alexxit/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 

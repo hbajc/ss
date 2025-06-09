@@ -3,7 +3,7 @@ version: 1.19.6
 slug: syncthing
 description: Syncthing 是一种去中心化的持续文件同步程序。
   way
-url: https://gh-proxy.com/github.com/Poeschl-HomeAssistant-Addons/syncthing
+url: https://ghfast.top/github.com/Poeschl-HomeAssistant-Addons/syncthing
 arch:
 - armhf
 - armv7

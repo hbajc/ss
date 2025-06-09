@@ -3,7 +3,7 @@ version: 1.19.0
 slug: duckdns
 name: Duck DNS
 description: 使用Let's Encrypt支持的免费动态DNS（DynDNS或DDNS）服务。
-url: https://gh-proxy.com/github.com/home-assistant/addons/tree/master/duckdns
+url: https://ghfast.top/github.com/home-assistant/addons/tree/master/duckdns
 arch:
   - armhf
   - armv7

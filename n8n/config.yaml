@@ -7,7 +7,7 @@ description: n8n 是一个可扩展的工作流自动化工具。凭借公平的
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   5678/tcp: 5678 
 ports_description:

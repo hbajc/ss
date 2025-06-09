@@ -13,7 +13,7 @@ RUN ln -s /usr/bin/php82 /usr/bin/php
 FROM base as build
 WORKDIR /var/www/html
 RUN apk add yarn git
-RUN git clone https://gh-proxy.com/github.com/pterodactyl/panel ./ --depth 1 --branch release/v1.10.4
+RUN git clone https://ghfast.top/github.com/pterodactyl/panel ./ --depth 1 --branch release/v1.10.4
 RUN rm -rf .git
 RUN chmod -R 755 storage/* bootstrap/cache
 RUN find storage -type d > .storage.tmpl

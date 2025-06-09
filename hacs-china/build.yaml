@@ -7,5 +7,5 @@ build_from:
 labels:
   org.opencontainers.image.title: "HACS极速版: 安装器"
   org.opencontainers.image.description: "安装HACS极速版"
-  org.opencontainers.image.source: "https://gh-proxy.com/github.com/hacs-china/addons"
+  org.opencontainers.image.source: "https://ghfast.top/github.com/hacs-china/addons"
   org.opencontainers.image.licenses: "MIT License"

@@ -6,7 +6,7 @@ description: 一个可以在自己的服务器上托管的虚拟游戏桌面。
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   80/tcp: 8765 
 ports_description:

@@ -19,7 +19,7 @@ RUN \
     && ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
     && curl -J -L -o /tmp/node_exporter.tar.gz \
-       "https://gh-proxy.com/github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-${ARCH}.tar.gz" \
+       "https://ghfast.top/github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-${ARCH}.tar.gz" \
     && cd /tmp \
     && tar -xzvf node_exporter.tar.gz --strip-components=1 \
     && mv node_exporter /usr/local/bin/ \

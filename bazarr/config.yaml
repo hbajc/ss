@@ -2,7 +2,7 @@ name: Bazarr
 version: 0.4.1
 slug: bazarr
 description: 下载并管理Sonarr和Radarr的字幕。
-url: https://gh-proxy.com/github.com/hassio-addons/addon-bazarr/tree/main/README.md
+url: https://ghfast.top/github.com/hassio-addons/addon-bazarr/tree/main/README.md
 codenotary: codenotary@frenck.dev
 webui: http://[HOST]:[PORT:6767]
 init: false

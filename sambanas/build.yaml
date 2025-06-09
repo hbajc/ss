@@ -7,8 +7,8 @@ build_from:
 #  signer: lucio.tarantino@gmail.com
 #  base_image: codenotary@frenck.dev
 #cosign:
-#  #base_identity: https://gh-proxy.com/github.com/home-assistant/builder/.*
-#  identity: https://gh-proxy.com/github.com/dianlight/hassio-addons/.*
+#  #base_identity: https://ghfast.top/github.com/home-assistant/builder/.*
+#  identity: https://ghfast.top/github.com/dianlight/hassio-addons/.*
 args:
   #  HDDTEMP_VERSION: "0.3-beta15"
   SRAT_VERSION: "v2024.12.0"

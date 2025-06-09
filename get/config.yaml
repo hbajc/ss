@@ -5,7 +5,7 @@ image: "ghcr.nju.edu.cn/hacs/{arch}-addon-get"
 description: 获取HACS的最简单方法。
 startup: once
 boot: manual
-url: "https://gh-proxy.com/github.com/hacs/addons/tree/main/get"
+url: "https://ghfast.top/github.com/hacs/addons/tree/main/get"
 arch:
   - armhf
   - armv7

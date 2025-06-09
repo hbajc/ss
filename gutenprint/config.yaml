@@ -2,7 +2,7 @@ name: Gutenprint Printer
 version: 5.3.4-11-edge
 slug: gutenprint-printer
 description: 支持使用Gutenprint打印驱动程序的打印机。
-url: https://gh-proxy.com/github.com/Eskander/ha-addon-printer
+url: https://ghfast.top/github.com/Eskander/ha-addon-printer
 arch:
   - amd64
   - aarch64

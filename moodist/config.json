@@ -21,7 +21,7 @@
   "slug": "moodist",
   "startup": "services",
   "upstream": "v2.0.1",
-  "url": "https://gh-proxy.com/github.com/jdeath/homeassistant-addons",
+  "url": "https://ghfast.top/github.com/jdeath/homeassistant-addons",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8080]",
   "ingress": false,
   "ingress_port": 8080

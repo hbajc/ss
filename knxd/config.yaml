@@ -3,7 +3,7 @@ name: KNXD daemon
 version: "0.6.1"
 slug: knxd
 description: KNXD守护进程可以通过TUART或USB总线适配器创建一个KNX/IP网关。
-url: https://gh-proxy.com/github.com/da-anda/hass-io-addons/tree/main/knxd
+url: https://ghfast.top/github.com/da-anda/hass-io-addons/tree/main/knxd
 arch:
   - armhf
   - armv7

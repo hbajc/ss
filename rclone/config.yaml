@@ -13,7 +13,7 @@ arch:
 image: "ghcr.nju.edu.cn/bluemaex/ha-addons-rclone-{arch}"
 startup: once
 boot: manual
-url: https://gh-proxy.com/github.com/bluemaex/home-assistant-addons/tree/master/rclone
+url: https://ghfast.top/github.com/bluemaex/home-assistant-addons/tree/master/rclone
 hassio_api: true
 init: false
 map:

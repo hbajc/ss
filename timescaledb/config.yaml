@@ -3,7 +3,7 @@ version: 5.2.0
 slug: timescaledb
 description: 一个基于PostgreSQL的开源数据库，用于使用SQL的强大和便利性分析时间序列数据。
   data with the power and convenience of SQL
-url: https://gh-proxy.com/github.com/expaso/hassos-addon-timescaledb
+url: https://ghfast.top/github.com/expaso/hassos-addon-timescaledb
 codenotary: hans@expaso.nl
 arch:
 - armhf

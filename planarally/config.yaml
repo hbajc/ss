@@ -6,7 +6,7 @@ description: 平面盟友是一个开源的虚拟桌面工具（VTT）网络工�
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   8000/tcp: 8000 
 ports_description:

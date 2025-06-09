@@ -4,7 +4,7 @@ MAINTAINER pbkhrv@pm.me
 
 ENV LANG C.UTF-8
 
-# Copied with minor edits from https://gh-proxy.com/github.com/hertzg/rtl_433_docker/blob/master/images/alpine/build-context/Dockerfile
+# Copied with minor edits from https://ghfast.top/github.com/hertzg/rtl_433_docker/blob/master/images/alpine/build-context/Dockerfile
 RUN apk add --no-cache --virtual .buildDeps \
     build-base \
     libusb-dev \
@@ -21,7 +21,7 @@ WORKDIR /build
 
 FROM builder as rtl_433_builder
 
-RUN git clone https://gh-proxy.com/github.com/merbanan/rtl_433
+RUN git clone https://ghfast.top/github.com/merbanan/rtl_433
 WORKDIR ./rtl_433
 
 # Build a specific commit or tag.
@@ -36,7 +36,7 @@ WORKDIR /build/rtl_433/build
 RUN make DESTDIR=/build/root/ install
 
 FROM builder as soapy_hackrf_builder
-RUN git clone https://gh-proxy.com/github.com/pothosware/SoapyHackRF.git
+RUN git clone https://ghfast.top/github.com/pothosware/SoapyHackRF.git
 WORKDIR SoapyHackRF
 RUN git checkout 6c0c33f0aa44c3080674e6bca0273184d3e9eb44
 WORKDIR build

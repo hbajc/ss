@@ -98,7 +98,7 @@ RUN export GNUPGHOME="$(mktemp -d)" && \
 
 WORKDIR /wiki
 ARG WIKIJS_VERSION="v2.5.303"
-RUN wget https://gh-proxy.com/github.com/Requarks/wiki/releases/download/${WIKIJS_VERSION}/wiki-js.tar.gz && \
+RUN wget https://ghfast.top/github.com/Requarks/wiki/releases/download/${WIKIJS_VERSION}/wiki-js.tar.gz && \
     tar xzf wiki-js.tar.gz -C /wiki && \
     rm wiki-js.tar.gz && \
     rm /wiki/config.sample.yml

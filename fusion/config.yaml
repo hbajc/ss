@@ -2,7 +2,7 @@ name: Fusion
 version: 0.1.0
 slug: fusion
 description: 轻量级RSS聚合器和阅读器。
-url: https://gh-proxy.com/github.com/einschmidt/addon-fusion
+url: https://ghfast.top/github.com/einschmidt/addon-fusion
 arch:
 - amd64
 - aarch64

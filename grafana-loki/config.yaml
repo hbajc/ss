@@ -9,7 +9,7 @@ arch:
   - amd64
 image: "ghcr.nju.edu.cn/bluemaex/ha-addons-loki-{arch}"
 startup: system
-url: https://gh-proxy.com/github.com/bluemaex/home-assistant-addons/tree/master/loki
+url: https://ghfast.top/github.com/bluemaex/home-assistant-addons/tree/master/loki
 init: false
 ports:
   3100/tcp: 3100

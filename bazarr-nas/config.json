@@ -113,7 +113,7 @@
   },
   "slug": "bazarr_nas",
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/bazarr",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons/tree/master/bazarr",
   "version": "1.5.2",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:6767]"
 }

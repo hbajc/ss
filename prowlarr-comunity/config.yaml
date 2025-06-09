@@ -3,7 +3,7 @@ version: 0.23.0
 slug: prowlarr-0
 description: 索引管理器/代理基于流行的arr堆栈构建，以与您的各种PVR应用程序集成。
   your various PVR apps
-url: https://gh-proxy.com/github.com/hassio-addons/addon-prowlarr/tree/main/README.md
+url: https://ghfast.top/github.com/hassio-addons/addon-prowlarr/tree/main/README.md
 codenotary: codenotary@frenck.dev
 webui: http://[HOST]:[PORT:9696]
 init: false

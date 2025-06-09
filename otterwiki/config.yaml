@@ -7,7 +7,7 @@ description: An Otter Wiki 是一个基于 Python 的协作内容管理系统，
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   80/tcp: 8084 
 ports_description:

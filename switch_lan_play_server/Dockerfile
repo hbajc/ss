@@ -13,7 +13,7 @@ RUN apk -U --no-cache add screen
 RUN apk -U --no-cache add build-base
 
 #Install SLP
-RUN git clone https://gh-proxy.com/github.com/spacemeowx2/switch-lan-play.git \
+RUN git clone https://ghfast.top/github.com/spacemeowx2/switch-lan-play.git \
     && cd switch-lan-play/server \
     && npm install \
     && npm run build

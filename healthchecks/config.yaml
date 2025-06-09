@@ -10,7 +10,7 @@ arch:
   - amd64
 image: "ghcr.nju.edu.cn/bluemaex/ha-addons-healthchecks-{arch}"
 startup: system
-url: https://gh-proxy.com/github.com/bluemaex/home-assistant-addons/tree/master/healthchecks
+url: https://ghfast.top/github.com/bluemaex/home-assistant-addons/tree/master/healthchecks
 init: false
 ingress: true
 ingress_port: 8000

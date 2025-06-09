@@ -8,7 +8,7 @@ RUN echo "Install base requirements." \
     && apk add --no-cache --virtual .necessary-mjpeg-streamer libjpeg nginx libgphoto2 \
     && echo "Install mjpg-streamer." \
     && apk add --no-cache --virtual .build-dependencies-mjpgstreamer make cmake build-base linux-headers libjpeg-turbo-dev libgphoto2-dev \
-    && wget -qO- https://gh-proxy.com/github.com/jacksonliam/mjpg-streamer/archive/master.tar.gz | tar xz -C /tmp \
+    && wget -qO- https://ghfast.top/github.com/jacksonliam/mjpg-streamer/archive/master.tar.gz | tar xz -C /tmp \
     && cd /tmp/mjpg-streamer-master/mjpg-streamer-experimental/ \
     && make --silent \
     && make install --silent \

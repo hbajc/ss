@@ -3,7 +3,7 @@ version: 0.7.5
 slug: emqx
 description: 物联网最可扩展的开源MQTT代理。Mosquitto插件的替代品。
   the Mosquitto add-on
-url: https://gh-proxy.com/github.com/hassio-addons/addon-emqx
+url: https://ghfast.top/github.com/hassio-addons/addon-emqx
 codenotary: codenotary@frenck.dev
 startup: services
 ingress: true

@@ -2,7 +2,7 @@ name: yarr!
 version: 0.5.1
 slug: yarr
 description: 又一款RSS阅读器。
-url: https://gh-proxy.com/github.com/einschmidt/addon-yarr
+url: https://ghfast.top/github.com/einschmidt/addon-yarr
 panel_icon: mdi:rss-box
 arch:
 - armhf

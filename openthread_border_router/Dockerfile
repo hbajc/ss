@@ -47,7 +47,7 @@ RUN \
        nodejs \
        npm \
     && git clone --depth 1 -b main \
-       https://gh-proxy.com/github.com/openthread/ot-br-posix.git \
+       https://ghfast.top/github.com/openthread/ot-br-posix.git \
     && cd ot-br-posix \
     && git fetch origin ${OTBR_VERSION} \
     && git checkout ${OTBR_VERSION} \

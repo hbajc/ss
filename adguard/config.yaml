@@ -2,7 +2,7 @@ name: AdGuard Home
 version: 5.2.10
 slug: adguard
 description: 跨网络广告和追踪器阻止DNS服务器。
-url: https://gh-proxy.com/github.com/hassio-addons/addon-adguard-home
+url: https://ghfast.top/github.com/hassio-addons/addon-adguard-home
 codenotary: codenotary@frenck.dev
 ingress: true
 ingress_port: 0

@@ -2,7 +2,7 @@ name: PostScript Printer
 version: 20240504-20-edge
 slug: postscript-printer
 description: 支持使用PostScript的打印机。
-url: https://gh-proxy.com/github.com/Eskander/ha-addon-printer
+url: https://ghfast.top/github.com/Eskander/ha-addon-printer
 arch:
   - amd64
   - aarch64

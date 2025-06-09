@@ -24,7 +24,7 @@ RUN \
         wheel \
     && .venv/bin/pip3 install --no-cache-dir \
         --extra-index-url https://www.piwheels.org/simple \
-        "wyoming-microwakeword @ https://gh-proxy.com/github.com/rhasspy/wyoming-microwakeword/archive/refs/tags/${WYOMING_MICROWAKEWORD_VERSION}.tar.gz" \
+        "wyoming-microwakeword @ https://ghfast.top/github.com/rhasspy/wyoming-microwakeword/archive/refs/tags/${WYOMING_MICROWAKEWORD_VERSION}.tar.gz" \
     \
     && apt-get remove --yes build-essential \
     && apt-get autoclean \

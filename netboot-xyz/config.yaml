@@ -2,7 +2,7 @@ name: Netboot.xyz
 version: 1.8.6
 slug: netboot-xyz
 description: PXE服务器在本地网络中部署操作系统。
-url: https://gh-proxy.com/github.com/FaserF/hassio-addons/tree/master/netboot-xyz
+url: https://ghfast.top/github.com/FaserF/hassio-addons/tree/master/netboot-xyz
 arch:
   - armhf
   - armv7

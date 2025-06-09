@@ -14,7 +14,7 @@ RUN \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then ARCH="amd64"; fi \
     \
     && curl -L -s \
-        "https://gh-proxy.com/github.com/portainer/portainer/releases/download/2.6.2/portainer-2.6.2-linux-${ARCH}.tar.gz" \
+        "https://ghfast.top/github.com/portainer/portainer/releases/download/2.6.2/portainer-2.6.2-linux-${ARCH}.tar.gz" \
         | tar zxvf - -C /opt/
 
 # Copy root filesystem
@@ -43,8 +43,8 @@ LABEL \
     org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}" \
-    org.opencontainers.image.documentation="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
+    org.opencontainers.image.source="https://ghfast.top/github.com/${BUILD_REPOSITORY}" \
+    org.opencontainers.image.documentation="https://ghfast.top/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

@@ -31,7 +31,7 @@
     "IMMICH_URL": "str"
   },
   "slug": "immich_power_tools",
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons",
   "version": "0.16.0-2",
   "webui": "http://[HOST]:[PORT:3000]"
 }

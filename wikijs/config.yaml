@@ -6,7 +6,7 @@ description: 一个基于Node.js的现代、轻量级且强大的wiki应用程�
 arch:
   - amd64
   - aarch64
-url: "https://gh-proxy.com/github.com/jdeath/homeassistant-addons"
+url: "https://ghfast.top/github.com/jdeath/homeassistant-addons"
 ports:
   3000/tcp: 3000 
 ports_description:

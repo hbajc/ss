@@ -19,7 +19,7 @@ RUN apt-get update \
     setuptools \
     wheel \
     && pip install --no-cache-dir \
-    https://gh-proxy.com/github.com/hugobloem/wyoming-microsoft-stt/archive/refs/tags/v${MICROSOFT_STT_VERSION}.zip \
+    https://ghfast.top/github.com/hugobloem/wyoming-microsoft-stt/archive/refs/tags/v${MICROSOFT_STT_VERSION}.zip \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy files

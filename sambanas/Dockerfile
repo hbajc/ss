@@ -18,7 +18,7 @@ RUN apk add --no-cache make \
 
 ARG BUILD_ARCH
 
-RUN cd / && wget -q -O - "https://gh-proxy.com/github.com/Netgear/wsdd2/archive/refs/heads/master.tar.gz" | tar zxvf - \
+RUN cd / && wget -q -O - "https://ghfast.top/github.com/Netgear/wsdd2/archive/refs/heads/master.tar.gz" | tar zxvf - \
     && cd wsdd2-master \ 
     && wget -q -O - https://raw.githubusercontent.com/openwrt/packages/refs/heads/master/net/wsdd2/patches/010-gcc14.patch | patch -p1 \
     && make
@@ -34,7 +34,7 @@ RUN cd /usr/local/bin/ && \
 #COPY /Users/ltarantino/Documents/Source/srat/backend/dist/srat /srat
 #RUN \ 
 #    if [ "$BUILD_ARCH" != "armv7" ]; then \ 
-#    cd / && git clone https://gh-proxy.com/github.com/dianlight/srat.git \
+#    cd / && git clone https://ghfast.top/github.com/dianlight/srat.git \
 #    && GOBIN=/usr/local/bin/ go install github.com/swaggo/swag/cmd/swag@latest \
 #    && wget -q -O - https://bun.sh/install | bash  \
 #    && export BUN_INSTALL="$HOME/.bun" \
@@ -123,7 +123,7 @@ COPY --from=builder /wsdd2-master/wsdd2 /usr/sbin
 COPY --from=builder /root/.cache/pypoetry /root/.cache/pypoetry
 
 # HA API
-RUN curl -Lso /usr/bin/ha "https://gh-proxy.com/github.com/home-assistant/cli/releases/download/${CLI_VERSION}/ha_${BUILD_ARCH}" \
+RUN curl -Lso /usr/bin/ha "https://ghfast.top/github.com/home-assistant/cli/releases/download/${CLI_VERSION}/ha_${BUILD_ARCH}" \
     && chmod a+x /usr/bin/ha 
 
 # SAMBA Config
@@ -135,8 +135,8 @@ RUN  mkdir -p /var/lib/samba \
     /var/lib/samba/winbindd_idmap.tdb
 
 # SRAT
-RUN curl -Lso /usr/local/bin/srat "https://gh-proxy.com/github.com/dianlight/srat/releases/download/${SRAT_VERSION}/srat_${BUILD_ARCH}" \
-    && chmod a+x /usr/local/bin/srat && echo "https://gh-proxy.com/github.com/dianlight/srat/releases/download/${SRAT_VERSION}/srat_${BUILD_ARCH}"
+RUN curl -Lso /usr/local/bin/srat "https://ghfast.top/github.com/dianlight/srat/releases/download/${SRAT_VERSION}/srat_${BUILD_ARCH}" \
+    && chmod a+x /usr/local/bin/srat && echo "https://ghfast.top/github.com/dianlight/srat/releases/download/${SRAT_VERSION}/srat_${BUILD_ARCH}"
 
 # ENABLE FUSE APFS
 RUN ln -s /usr/sbin/apfs-fuse /usr/sbin/mount.apfs
@@ -160,9 +160,9 @@ LABEL \
     org.opencontainers.image.vendor="Home Assistant Dianlight Add-ons" \
     org.opencontainers.image.authors="Lucio Tarantino <@dianlight>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://gh-proxy.com/github.com/dianlight/hassio-addons" \
-    org.opencontainers.image.source="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}" \
-    org.opencontainers.image.documentation="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
+    org.opencontainers.image.url="https://ghfast.top/github.com/dianlight/hassio-addons" \
+    org.opencontainers.image.source="https://ghfast.top/github.com/${BUILD_REPOSITORY}" \
+    org.opencontainers.image.documentation="https://ghfast.top/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

@@ -23,7 +23,7 @@ WORKDIR /go
 ARG OBFS_VERSION=obfs4proxy-0.0.14
 ARG SNOWFLAKE_VERSION=v2.10.1
 ARG WEBTUNNEL_VERSION=v0.0.2
-RUN git clone -b ${OBFS_VERSION} --single-branch --depth 1 https://gh-proxy.com/github.com/Yawning/obfs4.git \
+RUN git clone -b ${OBFS_VERSION} --single-branch --depth 1 https://ghfast.top/github.com/Yawning/obfs4.git \
     && git clone -b ${SNOWFLAKE_VERSION} --single-branch --depth 1 https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake.git \
     && git clone -b ${WEBTUNNEL_VERSION} --single-branch --depth 1 https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel.git
 
@@ -84,8 +84,8 @@ LABEL \
     org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}" \
-    org.opencontainers.image.documentation="https://gh-proxy.com/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
+    org.opencontainers.image.source="https://ghfast.top/github.com/${BUILD_REPOSITORY}" \
+    org.opencontainers.image.documentation="https://ghfast.top/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

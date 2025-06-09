@@ -3,7 +3,7 @@ version: 3.1.1
 slug: mailserver
 description: Home Assistant的Postfix和Dovecot邮件服务器，带有Postfix Admin Web界面。
   web interface
-url: https://gh-proxy.com/github.com/erik73/hassio-addons
+url: https://ghfast.top/github.com/erik73/hassio-addons
 arch:
 - aarch64
 - amd64

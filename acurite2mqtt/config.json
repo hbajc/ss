@@ -3,7 +3,7 @@
   "version": "0.3.26",
   "slug": "acurite2mqtt",
   "description": "通过MQTT与自动发现功能将Acurite传感器集成到Home Assistant中。",
-  "url": "https://gh-proxy.com/github.com/thejeffreystone/hassio_addons",
+  "url": "https://ghfast.top/github.com/thejeffreystone/hassio_addons",
   "startup": "services",
   "arch": [
     "aarch64",

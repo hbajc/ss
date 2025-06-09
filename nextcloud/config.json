@@ -158,7 +158,7 @@
   "slug": "nextcloud_ocr",
   "uart": true,
   "udev": true,
-  "url": "https://gh-proxy.com/github.com/alexbelgium/hassio-addons/tree/master/nextcloud",
+  "url": "https://ghfast.top/github.com/alexbelgium/hassio-addons/tree/master/nextcloud",
   "version": "31.0.5",
   "webui": "https://[HOST]:[PORT:443]"
 }

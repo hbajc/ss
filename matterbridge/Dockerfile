@@ -5,7 +5,7 @@ FROM ${BUILD_FROM} AS builder
 RUN apk --no-cache add wget go git tar
 ARG MATTERBRIDGE_VERSION="v1.26.0"
 
-RUN wget https://gh-proxy.com/github.com/42wim/matterbridge/archive/refs/tags/${MATTERBRIDGE_VERSION}.tar.gz
+RUN wget https://ghfast.top/github.com/42wim/matterbridge/archive/refs/tags/${MATTERBRIDGE_VERSION}.tar.gz
 
 RUN tar xzf ${MATTERBRIDGE_VERSION}.tar.gz
 RUN rm ${MATTERBRIDGE_VERSION}.tar.gz

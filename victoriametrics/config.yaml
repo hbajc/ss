@@ -11,7 +11,7 @@ arch:
   - i386
 image: "ghcr.nju.edu.cn/bluemaex/ha-addons-victoriametrics-{arch}"
 startup: system
-url: https://gh-proxy.com/github.com/bluemaex/home-assistant-addons/tree/master/victoriametrics
+url: https://ghfast.top/github.com/bluemaex/home-assistant-addons/tree/master/victoriametrics
 ports:
   8428/tcp: 8428
   2003/udp: null

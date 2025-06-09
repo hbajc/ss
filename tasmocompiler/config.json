@@ -21,7 +21,7 @@
   "slug": "tasmocompiler",
   "startup": "services",
   "upstream": "1.0",
-  "url": "https://gh-proxy.com/github.com/jdeath/homeassistant-addons",
+  "url": "https://ghfast.top/github.com/jdeath/homeassistant-addons",
   "image": "benzino77/tasmocompiler",
   "version": "12.6.1",
   "ingress": false,

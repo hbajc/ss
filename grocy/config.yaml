@@ -3,7 +3,7 @@ version: 0.24.0
 slug: grocy
 description: ERP 超越你的冰箱！一个用于您家庭的杂货和家庭管理的解决方案。
   your home
-url: https://gh-proxy.com/github.com/hassio-addons/addon-grocy
+url: https://ghfast.top/github.com/hassio-addons/addon-grocy
 codenotary: codenotary@frenck.dev
 ingress: true
 ingress_stream: true

@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "slug": "prometheus_node_exporter",
   "description": "Prometheus节点导出器用于硬件和操作系统指标。",
-  "url": "https://gh-proxy.com/github.com/loganmarchione/hassos-addons/tree/main/prometheus_node_exporter",
+  "url": "https://ghfast.top/github.com/loganmarchione/hassos-addons/tree/main/prometheus_node_exporter",
   "image": "ghcr.nju.edu.cn/loganmarchione/hassos-addons/prometheusnodeexporter-{arch}",
   "arch": [
     "amd64",

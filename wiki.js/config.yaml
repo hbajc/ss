@@ -2,7 +2,7 @@ name: Wiki.JS
 version: 2.0.15
 slug: wikijs
 description: 最强大且可扩展的开源Wiki软件。
-url: https://gh-proxy.com/github.com/FaserF/hassio-addons/tree/master/wiki.js
+url: https://ghfast.top/github.com/FaserF/hassio-addons/tree/master/wiki.js
 arch:
   #- aarch64 (nodejs does support aarch64, but nodejs musl not?)
   - amd64

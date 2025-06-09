@@ -3,7 +3,7 @@
   "version": "dev",
   "slug": "portainer",
   "description": "轻松管理您的Docker环境。",
-  "url": "https://gh-proxy.com/github.com/hassio-addons/addon-portainer",
+  "url": "https://ghfast.top/github.com/hassio-addons/addon-portainer",
   "advanced": true,
   "ingress": true,
   "ingress_stream": true,
