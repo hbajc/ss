@@ -1,16 +1,16 @@
-# Home Assistant 附加组件: phpMyAdmin
+# Home Assistant 附加组件：phpMyAdmin
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
 [![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-官方 MariaDB 附加组件的网页界面。
+一个用于官方 MariaDB 附加组件的Web界面。
 
 ## 关于
 
-phpMyAdmin 是一个用于 MySQL 和 MariaDB 的数据库管理工具。常用操作（管理数据库、表、列、关系、索引、用户、权限等）可以通过用户界面执行，同时你仍然可以直接执行任何 SQL 语句。
+phpMyAdmin 是一个用于 MySQL 和 MariaDB 的数据库管理工具。常用的操作（管理数据库、表、列、关系、索引、用户、权限等）可以通过用户界面执行，同时您仍然可以直接执行任何 SQL 语句。
 
-该附加组件专门设计用于管理官方 Home Assistant MariaDB 附加组件。
+此附加组件专门设计用于管理官方 Home Assistant MariaDB 附加组件。
 
 ![phpMyAdmin 截图][screenshot]
 

@@ -120,11 +120,7 @@ LABEL \
     org.opencontainers.image.vendor="Home Assistant Add-ons" \
     org.opencontainers.image.authors="alexbelgium (https://ghfast.top/github.com/alexbelgium)" \
     org.opencontainers.image.licenses="MIT" \
-<<<<<<< HEAD
-    org.opencontainers.image.url="https://addons.community" \
-=======
     org.opencontainers.image.url="https://ghfast.top/github.com/alexbelgium" \
->>>>>>> eb82a7b7f00cbd8e506926971df39a4e1d536ac4
     org.opencontainers.image.source="https://ghfast.top/github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://ghfast.top/github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \

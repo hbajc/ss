@@ -1,7 +1,7 @@
 name: YT Music PO Token Generator
-version: 0.8.5
+version: 1.1.0
 slug: ytm_po_token_generator
-description: 一个用于生成 YouTube 音乐的 PO 令牌的 BgUtils POT 提供程序的 HA 扩展程序包装器。
+description: 一个用于BgUtils POT提供者的HA插件包装器，可以生成YouTube音乐的PO令牌。
 url: https://ghfast.top/github.com/Brainicism/bgutil-ytdlp-pot-provider
 image: brainicism/bgutil-ytdlp-pot-provider
 arch:
