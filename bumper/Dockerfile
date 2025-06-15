@@ -15,12 +15,12 @@ FROM $FROM_ARCH/python:3.7-alpine as base
 COPY --from=builder qemu-arm-static /usr/bin
 COPY --from=builder qemu-aarch64-static /usr/bin
 
-FROM docker.1ms.run/base as builderfinal
+FROM base as builderfinal
 
 # add build utils (gcc, others)
-RUN apk add build-docker.1ms.run/base
+RUN apk add build-base
 
-FROM docker.1ms.run/base
+FROM base
 
 COPY requirements.txt /requirements.txt
 
