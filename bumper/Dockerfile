@@ -18,7 +18,7 @@ COPY --from=builder qemu-aarch64-static /usr/bin
 FROM base as builderfinal
 
 # add build utils (gcc, others)
-RUN apk add base
+RUN apk add build-docker.1ms.run/base
 
 FROM base
 
